@@ -1,0 +1,48 @@
+<section class="container page">
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+     {{ .Content }}
+  </article>
+
+    <div class="imagerow">
+
+      <div class="singlecolumn">
+        {{ range .Params.contentone }}
+            <img src={{ printf "%s%s" $.Params.baseimg (( . )) }} data-action="zoom">
+
+        {{ end }}
+      </div>
+
+      <div class="singlecolumn">
+        {{ range .Params.contenttwo }}
+            <img src={{ printf "%s%s" $.Params.baseimg (( . )) }} data-action="zoom">
+
+        {{ end }}
+      </div>
+
+      <div class="singlecolumn">
+        {{ range .Params.contentthree }}
+            <img src={{ printf "%s%s" $.Params.baseimg (( . )) }} data-action="zoom">
+
+        {{ end }}
+      </div>
+
+
+
+    </div>
+
+    <div class = "imagerowspecial">
+      <div class="onecolumnonly">
+        {{ range .Params.specialcontent }}
+            <img src={{ printf "%s%s" $.Params.baseimg (( . )) }} data-action="zoom" class = "standalones">
+
+        {{ end }}
+      </div>
+    </div>
+
+</section>
+
+    <script src="js/zoom-vanilla.min.js"></script>

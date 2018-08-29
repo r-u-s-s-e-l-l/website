@@ -1,0 +1,21 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  {{ partial "header.html" .}}
+
+  <section class="container page">
+    <article>
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+      
+      <div class= "content">
+        {{ .Content }}
+      </div>
+
+    </article>
+
+  </section>
+
+{{ end }}

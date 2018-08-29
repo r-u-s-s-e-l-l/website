@@ -1,0 +1,13 @@
+
+  {{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+  {{ partial "header.html" . }}
+
+    <hr id="disapear">
+
+  {{ partial "list.html" . }}
+
+{{ end }}

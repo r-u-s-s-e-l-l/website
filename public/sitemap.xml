@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.example.com/visuals/2-americansummer/6-yosemite/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/levels/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/visuals/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

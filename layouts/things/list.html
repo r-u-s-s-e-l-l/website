@@ -1,0 +1,29 @@
+
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+  {{ partial "header.html" . }}
+
+    <hr id="disapear">
+
+    <h2 class="title">{{ .Content}}</h2>
+
+
+      <section class="container list">
+        <ul>
+          {{ range .Paginator.Pages }}
+          <li class = "item">
+                <span>  {{ .Date.Format "January 02, 2006" }}</span>
+                <a href="{{ .URL }}">{{ .Title }}</a>
+
+
+          </li>
+          {{ end }}
+        </ul>
+        {{ partial "pagination.html" . }}
+      </section>
+
+
+{{ end }}

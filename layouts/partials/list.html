@@ -1,0 +1,96 @@
+<section class="container list">
+  <h2 class="title">{{ .Content}}</h2>
+
+  <ul>
+
+    <li>
+
+      <div class = "listrow">
+
+          <div class = "listcol">
+
+            {{ range.Sections}}
+              {{ if eq (mod .Weight 2) 1}}
+
+            <div class = "rect">
+              <a href="{{ .URL }}">
+
+                <div class="text-box text">
+                  {{ .Title}}
+                </div>
+
+                <img class = "tnail" src="{{ .Params.thumbnail}}">
+
+              </a>
+            </div>
+
+              {{ end }}
+            {{end}}
+
+            {{ range .Paginator.Pages.ByWeight }}
+              {{ if eq (mod .Weight 2) 1}}
+
+              <div class = "rect">
+                <a href="{{ .URL }}">
+
+                  <div class="text-box text">
+                    {{ .Title}}
+                  </div>
+
+                  <img class = "tnail" src="{{ .Params.thumbnail}}">
+
+                </a>
+              </div>
+
+              {{ end }}
+            {{ end }}
+
+          </div>
+
+          <div class = "listcol">
+
+            {{ range.Sections}}
+              {{ if eq (mod .Weight 2) 0}}
+
+              <div class = "rect">
+                <a href="{{ .URL }}">
+
+                  <div class="text-box text">
+                    {{ .Title}}
+                  </div>
+
+                  <img class = "tnail" src="{{ .Params.thumbnail}}">
+
+                </a>
+              </div>
+
+              {{ end }}
+            {{end}}
+
+            {{ range .Paginator.Pages.ByWeight }}
+              {{ if eq (mod .Weight 2) 0}}
+
+              <div class = "rect">
+                <a href="{{ .URL }}">
+
+                  <div class="text-box text">
+                    {{ .Title}}
+                  </div>
+
+                  <img class = "tnail" src="{{ .Params.thumbnail}}">
+
+                </a>
+              </div>
+
+              {{ end }}
+            {{ end }}
+
+
+          </div>
+
+      </div>
+    </li>
+
+  </ul>
+
+</section>

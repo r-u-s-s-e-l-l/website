@@ -1,0 +1,92 @@
+<section class="container centered">
+  <div class="about">
+    <h1>
+      {{ .Site.Params.author }}
+    </h1>
+
+    <ul>
+      {{ with .Site.Menus.main}}
+      {{ range sort .}}
+      <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+      {{ end }}
+      {{end }}
+    </ul>
+  </div>
+</section>
+
+<div class="row">
+      <div class="column">
+        <img src="img/Home/Mountain1.jpg" data-action="zoom">
+        <img src="img/Home/Sand1.jpg" data-action="zoom">
+        <img src="img/Home/angels1.jpg" data-action="zoom">
+        <img src="img/Home/Canyon1.jpg" data-action="zoom">
+        <img src="img/Home/Forest1.jpg" data-action="zoom">
+        <img src="img/Home/Golden1.jpg" data-action="zoom">
+        <img src="img/Home/Winter1.jpg" data-action="zoom">
+        <img src="img/Home/Light1.jpg" data-action="zoom">
+        <img src="img/Home/San1.jpg" data-action="zoom">
+        <img src="img/Home/Beach1.jpg" data-action="zoom">
+      </div>
+
+      <div class="column">
+        <img src="img/Home/Mountain2.jpg" data-action="zoom">
+        <img src="img/Home/Sand2.jpg" data-action="zoom">
+        <img src="img/Home/angels2.jpg" data-action="zoom">
+        <img src="img/Home/Canyon2.jpg" data-action="zoom">
+        <img src="img/Home/Forest2.jpg" data-action="zoom">
+        <img src="img/Home/Golden2.jpg" data-action="zoom">
+        <img src="img/Home/Winter2.jpg" data-action="zoom">
+        <img src="img/Home/Light2.jpg" data-action="zoom">
+        <img src="img/Home/San2.jpg" data-action="zoom">
+        <img src="img/Home/Beach2.jpg" data-action="zoom">
+      </div>
+
+      <div class="column">
+        <img src="img/Home/Mountain3.jpg" data-action="zoom">
+        <img src="img/Home/Sand3.jpg" data-action="zoom">
+        <img src="img/Home/angels3.jpg" data-action="zoom">
+        <img src="img/Home/Canyon3.jpg" data-action="zoom">
+        <img src="img/Home/Forest3.jpg" data-action="zoom">
+        <img src="img/Home/Golden3.jpg" data-action="zoom">
+        <img src="img/Home/Winter3.jpg" data-action="zoom">
+        <img src="img/Home/Light3.jpg" data-action="zoom">
+        <img src="img/Home/San3.jpg" data-action="zoom">
+        <img src="img/Home/Beach3.jpg" data-action="zoom">
+      </div>
+  </div>
+
+  <div class="responsive">
+        <img src="img/Home/Mountain1.jpg" data-action="zoom">
+        <img src="img/Home/Mountain2.jpg" data-action="zoom">
+        <img src="img/Home/Mountain3.jpg" data-action="zoom">
+        <img src="img/Home/Sand1.jpg" data-action="zoom">
+        <img src="img/Home/Sand2.jpg" data-action="zoom">
+        <img src="img/Home/Sand3.jpg" data-action="zoom">
+        <img src="img/Home/angels1.jpg" data-action="zoom">
+        <img src="img/Home/angels2.jpg" data-action="zoom">
+        <img src="img/Home/angels3.jpg" data-action="zoom">
+        <img src="img/Home/Canyon1.jpg" data-action="zoom">
+        <img src="img/Home/Canyon2.jpg" data-action="zoom">
+        <img src="img/Home/Canyon3.jpg" data-action="zoom">
+        <img src="img/Home/Forest1.jpg" data-action="zoom">
+        <img src="img/Home/Forest3.jpg" data-action="zoom">
+        <img src="img/Home/Forest2.jpg" data-action="zoom">
+        <img src="img/Home/Golden1.jpg" data-action="zoom">
+        <img src="img/Home/Golden2.jpg" data-action="zoom">
+        <img src="img/Home/Golden3.jpg" data-action="zoom">
+        <img src="img/Home/Winter1.jpg" data-action="zoom">
+        <img src="img/Home/Winter2.jpg" data-action="zoom">
+        <img src="img/Home/Winter3.jpg" data-action="zoom">
+        <img src="img/Home/Light1.jpg" data-action="zoom">
+        <img src="img/Home/Light2.jpg" data-action="zoom">
+        <img src="img/Home/Light3.jpg" data-action="zoom">
+        <img src="img/Home/San1.jpg" data-action="zoom">
+        <img src="img/Home/San2.jpg" data-action="zoom">
+        <img src="img/Home/San3.jpg" data-action="zoom">
+        <img src="img/Home/Beach1.jpg" data-action="zoom">
+        <img src="img/Home/Beach2.jpg" data-action="zoom">
+        <img src="img/Home/Beach3.jpg" data-action="zoom">
+    </div>
+
+
+    <script src="js/zoom-vanilla.min.js"></script>
