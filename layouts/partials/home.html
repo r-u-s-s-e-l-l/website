@@ -1,3 +1,4 @@
+<div class = "fade">
 <section class="container centered">
   <div class="about">
     <h1>
@@ -42,8 +43,8 @@
       </div>
 
       <div class="column">
-        <img src="img/Home/Mountain3.jpg" data-action="zoom">
-        <img src="img/Home/Sand3.jpg" data-action="zoom">
+        <img src="{{ .Site.BaseURL }}/img/Home/Mountain3.jpg" data-action="zoom">
+        <img src="{{ .Site.BaseURL }}/img/Home/Sand3.jpg" data-action="zoom">
         <img src="img/Home/angels3.jpg" data-action="zoom">
         <img src="img/Home/Canyon3.jpg" data-action="zoom">
         <img src="img/Home/Forest3.jpg" data-action="zoom">
@@ -56,6 +57,7 @@
   </div>
 
   <div class="responsive">
+    <div class = "column fade">
         <img src="img/Home/Mountain1.jpg" data-action="zoom">
         <img src="img/Home/Mountain2.jpg" data-action="zoom">
         <img src="img/Home/Mountain3.jpg" data-action="zoom">
@@ -86,7 +88,9 @@
         <img src="img/Home/Beach1.jpg" data-action="zoom">
         <img src="img/Home/Beach2.jpg" data-action="zoom">
         <img src="img/Home/Beach3.jpg" data-action="zoom">
+      </div>
     </div>
+  </div>
 
 
     <script src="js/zoom-vanilla.min.js"></script>

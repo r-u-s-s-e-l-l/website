@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <!--metadata-->
       {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
@@ -15,7 +15,7 @@
 
     <link rel="canonical" href="{{ .Permalink }}">
 
-    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="{{ "css/style.min.css" | absURL }}">
 
     {{ range .Site.Params.custom_css }}
@@ -35,7 +35,7 @@
     {{ .Hugo.Generator }}
   </head>
 
-  <body class="{{ if .Site.Params.rtl }}rtl{{ end }}">
+  <body class="{{ if .Site.Params.rtl }}rtl{{ end }} fade">
     <main class="wrapper">
     <!-- {{ partial "header.html" . }} -->
 

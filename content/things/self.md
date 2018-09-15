@@ -13,4 +13,4 @@ specialcontent:
 
 ---
 
-Experimentation with the idea of self - Shadows, thoughts & change.
+Shadows, thoughts & change.
