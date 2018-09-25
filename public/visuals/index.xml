@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visuals on Russell Ijaya</title>
-    <link>https://www.example.com/visuals/</link>
+    <link>https://r-u-s-s-e-l-l.github.io/visuals/</link>
     <description>Recent content in Visuals on Russell Ijaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 15 Aug 2018 12:59:42 -0400</lastBuildDate>
     
-	<atom:link href="https://www.example.com/visuals/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://r-u-s-s-e-l-l.github.io/visuals/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Yosemite</title>
-      <link>https://www.example.com/visuals/2-americansummer/6-yosemite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Ottawa</title>
+      <link>https://r-u-s-s-e-l-l.github.io/visuals/3-ottawa/</link>
+      <pubDate>Wed, 15 Aug 2018 12:59:42 -0400</pubDate>
       
-      <guid>https://www.example.com/visuals/2-americansummer/6-yosemite/</guid>
+      <guid>https://r-u-s-s-e-l-l.github.io/visuals/3-ottawa/</guid>
+      <description>Revisited</description>
+    </item>
+    
+    <item>
+      <title>T.O. Light Festival</title>
+      <link>https://r-u-s-s-e-l-l.github.io/visuals/4-tolightfestival/</link>
+      <pubDate>Wed, 15 Aug 2018 12:56:24 -0400</pubDate>
+      
+      <guid>https://r-u-s-s-e-l-l.github.io/visuals/4-tolightfestival/</guid>
+      <description>Lights, Lights and more Lights</description>
+    </item>
+    
+    <item>
+      <title>Stratford III</title>
+      <link>https://r-u-s-s-e-l-l.github.io/visuals/5-stratford/</link>
+      <pubDate>Wed, 15 Aug 2018 14:39:43 -0400</pubDate>
+      
+      <guid>https://r-u-s-s-e-l-l.github.io/visuals/5-stratford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alberta</title>
+      <link>https://r-u-s-s-e-l-l.github.io/visuals/6-alberta/</link>
+      <pubDate>Wed, 15 Aug 2018 12:57:08 -0400</pubDate>
+      
+      <guid>https://r-u-s-s-e-l-l.github.io/visuals/6-alberta/</guid>
       <description></description>
     </item>
     
